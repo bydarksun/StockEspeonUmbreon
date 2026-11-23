@@ -1,0 +1,41 @@
+{
+  "stores": [
+    {
+      "name": "Carrefour España",
+      "domain": "carrefour.es"
+    },
+    {
+      "name": "El Corte Inglés",
+      "domain": "elcorteingles.es"
+    },
+    {
+      "name": "ToyPlanet",
+      "domain": "toyplanet.com"
+    },
+    {
+      "name": "Fnac España",
+      "domain": "fnac.es"
+    },
+    {
+      "name": "Juguettos",
+      "domain": "juguettos.com"
+    },
+    {
+      "name": "GAME España",
+      "domain": "game.es"
+    }
+  ],
+  "product_queries_es": [
+    "Pokémon 30 aniversario Ultra Premium Collection Espeon",
+    "Pokémon 30 aniversario Ultra Premium Collection Umbreon",
+    "Colección Ultra Premium 30 aniversario Día Espeon",
+    "Colección Ultra Premium 30 aniversario Noche Umbreon"
+  ],
+  "product_queries_en": [
+    "Pokemon 30th Anniversary Ultra Premium Collection Espeon",
+    "Pokemon 30th Anniversary Ultra Premium Collection Umbreon",
+    "30th Celebration Ultra Premium Collection Day Espeon",
+    "30th Celebration Ultra Premium Collection Night Umbreon"
+  ],
+  "note": "Search queries are for discovery. Monitor specific product pages only after verifying the exact product/variant and URL."
+}

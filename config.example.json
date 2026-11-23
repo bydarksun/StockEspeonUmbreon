@@ -1,0 +1,22 @@
+{
+  "interval_seconds": 180,
+  "delay_between_targets_seconds": 8,
+  "out_of_stock_patterns": [
+    "agotado",
+    "sin stock",
+    "no disponible",
+    "producto agotado",
+    "out of stock",
+    "sold out",
+    "currently unavailable"
+  ],
+  "in_stock_patterns": [
+    "añadir al carrito",
+    "add to cart",
+    "comprar ahora",
+    "buy now",
+    "disponible",
+    "in stock"
+  ],
+  "targets": []
+}
