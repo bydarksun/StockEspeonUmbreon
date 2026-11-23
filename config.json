@@ -1,0 +1,58 @@
+{
+"interval_seconds": 180,
+"delay_between_targets_seconds": 8,
+"out_of_stock_patterns": [
+"sin stock",
+"no disponible",
+"producto agotado",
+"agotado",
+"out of stock",
+"sold out",
+"currently unavailable"
+],
+"in_stock_patterns": [
+"añadir al carrito",
+"add to cart",
+"comprar ahora",
+"buy now",
+"disponible",
+"in stock"
+],
+"targets": [
+{
+"store": "Carrefour",
+"product": "Caja Ultra Premium 30 aniversario - surtido, variante no confirmada",
+"url": "https://www.carrefour.es/pokemon-caja-ultrapremium-30th-ingles-juego-de-mesa-6-anos-unboxing/VC4A-34530760/p"
+},
+{
+"store": "El Corte Inglés",
+"product": "Caja Ultra Premium 30 aniversario - surtido, variante no confirmada",
+"url": "https://www.elcorteingles.es/juguetes/A202035441-30th-caja-coleccion-ultrapremium-de-celebracion-30-aniversario-de-jcc-pokemon-pokemon-bandai-modelos-surtidos/"
+},
+{
+"store": "ToyPlanet",
+"product": "Espeon Ultra Premium Collection",
+"url": "https://www.toyplanet.com/products/pokemon-tcg-30%C2%BA-aniversario-ultra-premium-collection-edicion-1-6-anos"
+},
+{
+"store": "ToyPlanet",
+"product": "Umbreon Ultra Premium Collection",
+"url": "https://www.toyplanet.com/products/pokemon-tcg-30%C2%BA-aniversario-ultra-premium-collection-edicion-2-6-anos"
+},
+{
+"store": "Fnac",
+"product": "Espeon Ultra Premium Collection",
+"url": "https://www.fnac.es/Caja-Pokemon-Ultrapremium-Espeon-30%C2%BA-Aniversario-Juegos-de-mesa-Juego-de-cartas/a13398337"
+},
+{
+"store": "Fnac",
+"product": "Umbreon Ultra Premium Collection",
+"url": "https://www.fnac.es/Caja-Pokemon-Ultrapremium-Umbreo-30%C2%BA-Aniversario-Juegos-de-mesa-Juego-de-cartas/a13398338"
+},
+{
+"store": "GAME",
+"product": "Caja Ultra Premium 30 aniversario - surtido, variante no confirmada",
+"url": "https://www.game.es/caja-ultra-premium-de-cartas-pokemon-30-aniversario-castellano-surtido/266954"
+}
+]
+}
