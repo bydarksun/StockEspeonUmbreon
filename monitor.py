@@ -79,17 +79,23 @@ def check_target(target, state):
 
 def main():
     state = load_state()
-    interval = int(CONFIG.get("interval_seconds", 180))
     targets = CONFIG.get("targets", [])
+    delay = int(CONFIG.get("delay_between_targets_seconds", 8))
+
     if not targets:
         print("Añade tiendas/product URLs en config.json")
-    while True:
-        for target in targets:
-            check_target(target, state)
-            save_state(state)
-            time.sleep(int(CONFIG.get("delay_between_targets_seconds", 8)))
+        return
+
+    for i, target in enumerate(targets):
+        check_target(target, state)
         save_state(state)
-        time.sleep(interval)
+
+        if i < len(targets) - 1:
+            time.sleep(delay)
+
+    save_state(state)
+    print("Revisión terminada.")
+
 
 if __name__ == "__main__":
     main()
